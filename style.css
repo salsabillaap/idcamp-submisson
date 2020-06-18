@@ -18,3 +18,85 @@ main {
     text-align: center;
     color: #d9bdbd;
  }
+
+ h3 {
+    color: #d93f3f;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+
+ nav a:hover {
+    font-weight: bold;
+ }
+
+ .profile header {
+    text-align: center;
+ }
+
+.featured-image {
+     width: 100%;
+     max-height: 350px;
+     object-fit: cover;
+     object-position: center;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+ header {
+   display: inline;
+}
+
+ nav {
+    background-color: #b50000;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+
+ #content {
+    float: left;
+    width: 75%;
+ }
+
+ .catalog-image{
+     width: 30%; 
+ }
+
+*{
+    box-sizing: border-box;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 900px;
+    margin: 0 auto;
+ }
+
+ .flex-container-row {
+     display: flex;
+ }
